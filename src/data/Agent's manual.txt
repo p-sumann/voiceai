@@ -1,0 +1,346 @@
+
+Fort Wise
+Manual for a sales representative
+
+Content:
+What is Fort Wise and how cooperation looks like
+Who is Alara
+Target audience, market and offer
+Plans and costs
+Contacts
+Communication examples
+
+Part 1. What is Fort Wise?
+
+Fort Wise AI is an agency which focuses on AI solutions that should be implemented in businesses. They work by the following model:
+BANE - Business Analysis and Needs Establishment (CEO, CTO, BAs)
+Diving into the client’s business
+Establishing needs → proposal
+     2. Implementation (CTO, BAs, Devs)
+BAs present the vision to the devs
+SCRUM process, collaboration with the client
+Project finish
+      3. Continuous Maintenance (Devs)
+Maintenance agreement (third sale)
+Maintenance process (continuous revenue)
+
+
+
+
+
+
+Processes Description - client offer
+Business Analysis and Needs Establishment - BANE
+CEO, CTO, and BAs/PMs dive deep into the client’s business processes. They create a scope and detailed implementation plan.
+On its basis, a presentation to the client is prepared, and the team cooperates with the client and clarifies all requirements, and payment agreements in detail. These should be approved by the client and the CEO.
+The project backlog* is established. To be approved by the CTO.
+Implementation
+The implementation process should be controlled by the CTO. BAs and Devs take part. CEO may consult.
+BAs, Devs, and the CTO should repeat the following process until they fulfill they implement the product backlog completely.
+Sprint Planning: The team defines sprint goals and selects tasks from the product backlog*.
+Development: Developers work on coding, integrating AI models, and creating necessary infrastructure.
+Daily Scrum: Brief daily meetings to discuss progress and obstacles.
+Sprint Review: The team demonstrates the completed work to stakeholders.
+Sprint Retrospective: The team reflects on the sprint and identifies areas for improvement.
+Maintenance
+1-2 devs should help the client use the integrated tools. They should answer the questions, manage issues, ensure correct billing for APIs, etc. On this stage, data uploads, and other integrations are possible
+
+Part 2. Who is Alara?
+Our key product.
+
+These days, a great deal of business-customer interactions happen online. Whether this is a website or a social media page, businesses should be able to provide smooth and comfortable communication via these means. Today’s prior channel is … a chat. A chat that is controlled by a human, a worker, who we spend money on. Therefore, we came up with a conversational AI solution.
+
+Meet Alara, your digital sales officer! Primary functions of Alara include:
+
+1. Responding to customer inquiries about the product in 60+ languages.
+2. Chatting via various channels such as Instagram, WhatApp, Instagram, Telegram, Messenger, Websites, etc.
+3. Operating 24/7 handling issues and answering questions in seconds, speaking 30 languages, including English, French, German, Ukrainian, Russian, Chinese, Arabic, Polish, and others.
+4. Integrating with your CRM system or a database in real time, providing your customer with up-to-date information.
+5. Closing a sale, making changes in CRM and notifying the respective stakeholders.
+6. Call a human via notification (any channel you prefer) if she can’t answer.
+
+Let’s take a closer look at our offer and its beneficiaries!
+
+Part 3. Target audience, market and offer
+
+We aim to help businesses optimize their sales funnel by reducing cost and powering customer support with efficiency.
+
+The key characteristics of our clients include:
+Business with a great deal of online communication
+Have a sufficient number of clients and a need to use AI, but still communicate with clients manually
+Spend lots of your time & money on client communication via social media, messengers and/or websites.
+
+Taking previous characteristics into consideration, we define the following client types we would be happy to empower:
+
+E-Commerce
+Healthcare establishments
+Beauty
+Online/offline service businesses (aka. other)
+
+Benefits for example businesses are described here.
+
+Part 4. Plans and costs. Offer
+At Fort Wise, we offer four plans for Alara digital sales rep. Here they are.
+Plan AI-Pioneer:
+This plan would be perfect for those exploring the capabilities of Conversational AI Alara or small-sized businesses with a reasonable number of requests.
+Plan AI-Captain:
+This plan would be amazing for businesses handling a decent number of requests per day via at most 3 channels.
+Plan AI-Legend:
+For businesses desiring to fully unlock the potential of Alara, having a big number of requests via different channels.
+Feature\Plan
+Pioneer
+Captain
+Legend
+Requests
+Up to 100/day
+Up to 300/day
+Unlimited
+Number of agents
+1
+3
+5
+Data embedding
+Yes
+Yes
+Yes
+Continuous support
+Yes
+Yes
+Yes
+Client responses and help
+Yes
+Yes
+Yes
+Call human function
+Yes
+Yes
+Yes
+CRM-integration
+No
+Yes
+Yes
+Closing a sale
+No
+Yes
+Yes
+Comment responses
+No
+Yes
+Yes
+Priority support
+No
+No
+Yes
+Other systems integration
+No
+No
+Yes
+
+Plan AI-Custom: We can discuss details individually.
+
+Part 5. Contacts
+As a sales representative it is your task to gather appropriate information about the client, and help him choose a plan.
+In conversation, you should get as much useful information as possible. It includes:
+First Name
+Last Name
+Company
+Position
+Company size (headcount)
+
+
+
+Company's website (optional)
+Company's field
+Email
+Phone number
+Nickname (social media, Telegram, optional)
+Best way to contact
+
+
+A sales rep should insert these data into the table where we store client data.
+Also, a sales rep can send a link to book a direct meeting with a company representative:
+https://calendly.com/nazaribih/30min
+
+Part 6. Some questions and answers
+Q: Does Alara support attachments?
+A: Yes, you can send images, website and pdf files to her in the chat.
+
+Q: Can Alara understand and respond in multiple languages?
+A: Yes, Alara is fluent in English, Spanish, French, German, Mandarin Chinese, Arabic, and other languages. What specific language are you interested in?
+
+Q: How does it handle complex or multi-part questions?
+A: Alara breaks down complex queries into components and addresses each systematically, ensuring no part of the question is missed. It maintains context throughout the conversation.
+
+Q: Can it access our product database?
+A: Yes, Alara integrates with your existing product database through our API, providing real-time access to pricing, inventory, and product details. It’s included in our AI-Captain plan.
+
+Q: How does it handle handoff to human agents?
+A: When Alara detects complex issues, high emotional distress, or requests beyond its capabilities, it smoothly transfers the conversation to a human agent, providing full conversation context.
+
+Q: How natural are its conversations?
+A: Alara maintains natural, context-aware conversations using advanced language processing. It remembers previous interactions within a session and can reference earlier points without requiring repetition.
+
+Q: How does it handle customer complaints?
+A: Alara uses de-escalation techniques, acknowledges customer emotions, offers solutions, and knows when to involve human supervisors. It's programmed to be empathetic while remaining solution-focused.
+
+Q: How easily can we integrate with existing systems?
+A: We offer standard integrations with major platforms (Salesforce, Zendesk, HubSpot, Google Spreadsheets) within 2-4 weeks. Custom integrations are available based on your needs.
+
+Q: Can we customize responses to match our brand?
+A: Yes, just let us know and we will adjust Alara's communication style, vocabulary, and responses to align with your brand voice.
+
+Q: Can it be trained on our specific products?
+A: Yes, we create a custom knowledge base for your products, services, and policies. Regular updates can be made through our management interface.
+
+Q: What metrics can we track?
+A: Our dashboard tracks response times, resolution rates, customer satisfaction, conversation volume, and peak handling times.
+
+Q: What percentage of queries can it handle without humans?
+A: On average, Alara resolves 85% of customer queries without human intervention. This rate typically improves over time with learning.
+
+Q: How is customer data protected?
+A: All conversations are end-to-end encrypted. We're GDPR, CCPA, and SOC 2 Type II compliant. Sensitive data is automatically redacted and stored according to your policies.
+
+Q: What kind of support do you provide?
+A: We offer:
+-  implementation support
+- Dedicated success manager
+- 24/7 technical support
+- Quarterly model updates
+- 99.9% uptime guarantee
+- additional integrations and embeddings support
+
+Q: How often is the AI updated?
+A: Major updates occur quarterly, with minor improvements and security patches deployed as needed. All updates are automatic and require no downtime.
+
+Q: What happens if the system goes down?
+A: We maintain redundant systems with automatic failover. In the unlikely event of complete system failure, conversations are automatically routed to your human support team.
+
+
+Q: Who handles maintenance?
+A: Our team manages all maintenance, updates, and monitoring, requiring minimal IT resources from your side.
+
+Q: What is Alara?
+A: Alara from Fort Wise is an AI-powered sales assistant that automates customer communication, lead qualification, meeting scheduling, and order processing. It helps businesses streamline their sales processes using natural language processing and machine learning.
+
+Q: How does Alara work?
+A: Alara engages with customers through your existing communication channels, using advanced AI to understand queries, provide relevant information, and guide prospects through the sales funnel. It learns from each interaction to improve its performance.
+
+Q: How can Alara benefit my business?
+A: Alara reduces response times by 80%, handles multiple conversations simultaneously, qualifies leads 24/7, and frees your sales team to focus on high-value activities. It also provides consistent customer experience and detailed analytics.
+
+Q: How much does Alara cost?
+A: Our pricing is based on conversation volume and features needed. We offer tiered plans for SMEs, with custom enterprise pricing available. Contact us for a detailed quote. AI-Pioneer, AI-Captain, and AI-Legend Plans are available. Would you like to know more about any of them?
+
+Q: How can I get started with Alara?
+A: Getting started takes three steps: 1) Schedule a demo, 2) Choose your plan and customize settings, 3) Complete the 2-week implementation process with our support team.
+
+Q: How is Alara different from other AI sales tools?
+A: Alara stands out with its advanced context understanding, seamless human handoff capabilities, extensive customization options, and comprehensive analytics. It's designed specifically for complex B2B environments.
+
+Q: Can Alara handle multiple channels?
+A: Yes, Alara works across email, chat, messaging platforms, and social media, maintaining consistent conversations across all channels.
+
+Q: How can I train my Alara AI agent?
+A: Training involves uploading your product information, sales scripts, and company policies through our platform. Our team helps customize responses and workflows during implementation.
+
+Q: Can I customize my Alara AI agent?
+A: Yes, you can customize Alara's tone, responses, workflows, and decision-making processes to match your brand and sales strategy through our control panel.
+
+Q: What is the ROI of using Alara?
+A: Clients typically see ROI within 3-6 months through reduced response times, increased lead conversion, and better resource allocation. We provide detailed analytics to track your return.
+
+Q: How quickly can Alara respond to leads?
+A: Alara responds instantly to incoming queries 24/7, ensuring no lead goes unattended. On average, we generate a response within 2 seconds, but hold it for a little, which makes communication more human-like.
+
+Q: Can Alara handle high volumes of leads?
+A: Yes, Alara can handle thousands of simultaneous conversations without degradation in performance or response time.
+
+Q: How secure is Alara?
+A: Alara is GDPR, CCPA, and SOC 2 Type II compliant, with end-to-end encryption and automatic sensitive data redaction. We maintain strict security protocols.
+
+Q: Can I resell Alara?
+A: Yes, we offer a partner program for agencies and resellers. Schedule a meeting with us for details on commission structures and support.
+
+Q: Can Alara handle inbound and outbound sales?
+A: Yes, Alara manages both inbound inquiries and outbound campaigns, maintaining conversation context across both channels.
+
+Q: Can Alara qualify leads?
+A: Yes, Alara qualifies leads using customizable criteria, scoring systems, and your specific qualification framework. It can identify high-priority leads for immediate human follow-up.
+
+Q: Can Alara book sales meetings?
+A: Yes, Alara integrates with calendar systems to check availability and schedule meetings directly. It can also send confirmations and reminders.
+
+Q: How do we pay for Alara?
+A: There is a fixed price for integration, and then maintenance price. Maintenance price includes a fixed number of requests per day, support and resolution of any issues. In case the limit of tokens/requests is exceeded, there will be an additional charge per request.
+
+Q: When has the company been founded?
+A: Fort Wise was founded in November 2024 by two AI-experts.
+
+Q: Who are the founders?
+A: Two AI-experts who have experience in BNP Paribas CIB bank and JetBrains. They gained expertise in major corporations, and later decided to improve the world by building their own products.
+
+Q: Are there any examples of your projects?
+A: While there are no publicly available examples of Fort Wise projects, our team has built internal products for companies such as 10Clouds, JetBrains and BNP Paribas CIB.
+
+Q: How can I receive Alara?
+A: Our expert team dives into your business to perfectly understand your needs. Then, a product is built and integrated. Later, we connect Alara to your platforms and give you an admin-panel, through which you will be able to manage Alara.
+
+Q: Can I get a demo of Alara?
+A: Yes, schedule a demo through our website or contact our sales team. We'll show you Alara's capabilities with examples relevant to your industry. Please book a free slot via this link: https://calendly.com/nazaribih/30min
+
+
+Q: What are the minimum technical requirements for implementing Alara?
+A: Alara requires a stable internet connection and access to your communication channels. No special hardware is needed. For CRM integration, your system needs to have API capabilities.
+
+Q: How long does the implementation typically take?
+A: Basic implementation usually takes 1-4 weeks, depending on the complexity of your systems and customization requirements. This includes integration, training, and testing phases.
+
+Q: Do you offer a trial period?
+A: Yes, we can arrange a pilot program for businesses to test Alara's capabilities with a subset of their customer interactions before full implementation.
+
+Q: What happens if Alara makes a mistake?
+A: Alara has built-in error detection. If it recognizes a potential mistake, it will immediately correct itself or escalate to a human supervisor. All interactions are logged for review and improvement.
+
+Q: How do you handle service outages or maintenance?
+A: We maintain 99.9% uptime with redundant systems. Planned maintenance is scheduled during off-peak hours with advance notice. Emergency maintenance is rare but handled with immediate communication.
+
+Q: Can Alara handle seasonal spikes in traffic?
+A: Yes, our system automatically scales to handle increased traffic during peak seasons or promotional periods without additional configuration.
+
+Q: Where is our data stored?
+A: Data is stored in secure cloud servers in compliance with regional data protection laws. We offer options for data storage location based on your regulatory requirements.
+
+Q: Can we export our conversation data?
+A: Yes, all conversation data can be exported in various formats (CSV, JSON, etc.) for analysis or backup purposes.
+
+Q: What happens to our data if we terminate the service?
+A: Upon service termination, we provide a complete export of your data and permanently delete it from our systems according to agreed-upon terms and compliance requirements.
+
+Q: Can Alara integrate with multiple brands under one company?
+A: Yes, Alara can be configured to handle multiple brands with different personalities, knowledge bases, and response styles under a single administrative interface.
+
+Q: Do you offer volume discounts for multiple locations or brands?
+A: Yes, we offer custom enterprise pricing for businesses implementing Alara across multiple locations or brands. This includes consolidated billing and reporting.
+
+Q: How do you handle international markets and time zones?
+A: Alara automatically adjusts to different time zones and can be configured with region-specific responses and business rules. It maintains appropriate business hours (it can operate 24/7) for each location.
+
+Q: What kind of training do you provide for our team?
+A: We provide comprehensive training including:
+- Admin panel usage training
+- Response customization workshops
+- Analytics dashboard training
+- Best practices for AI-human collaboration
+- Regular update briefings
+
+Q: How quickly can we make changes to Alara's responses?
+A: Minor response adjustments can be made immediately through the admin panel. Major changes to business logic or integration points typically require 24-48 hours for testing and deployment.
+
+Q: Do you provide documentation and user guides?
+A: Yes, we provide detailed documentation needed for comfortable Alara usage.
+
+Q: Can Alara handle age-restricted products or services?
+A: Yes, Alara can be configured with age verification workflows and appropriate restrictions for regulated products or services.
+
+
