@@ -2,33 +2,29 @@
 #    uv pip compile pyproject.toml -o requirements.txt
 aiofiles==24.1.0
     # via gradio
+aiohappyeyeballs==2.6.1
+    # via aiohttp
+aiohttp==3.11.18
+    # via langchain-community
 aioice==0.10.1
     # via
     #   aiortc
     #   fastrtc
 aiortc==1.11.0
     # via fastrtc
+aiosignal==1.3.2
+    # via aiohttp
 annotated-types==0.7.0
     # via pydantic
 anyio==4.9.0
     # via
     #   gradio
     #   httpx
-    #   jupyter-server
     #   openai
     #   starlette
-argon2-cffi==23.1.0
-    # via jupyter-server
-argon2-cffi-bindings==21.2.0
-    # via argon2-cffi
-arrow==1.3.0
-    # via isoduration
-asttokens==3.0.0
-    # via stack-data
-async-lru==2.0.5
-    # via jupyterlab
 attrs==25.3.0
     # via
+    #   aiohttp
     #   csvw
     #   jsonschema
     #   phonemizer-fork
@@ -44,13 +40,7 @@ audioread==3.0.1
 av==14.3.0
     # via aiortc
 babel==2.17.0
-    # via
-    #   csvw
-    #   jupyterlab-server
-beautifulsoup4==4.13.4
-    # via nbconvert
-bleach==6.2.0
-    # via nbconvert
+    # via csvw
 certifi==2025.4.26
     # via
     #   httpcore
@@ -59,7 +49,6 @@ certifi==2025.4.26
 cffi==1.17.1
     # via
     #   aiortc
-    #   argon2-cffi-bindings
     #   cryptography
     #   pylibsrtp
     #   soundfile
@@ -75,24 +64,16 @@ coloredlogs==15.0.1
     # via onnxruntime
 colorlog==6.9.0
     # via kokoro-onnx
-comm==0.2.2
-    # via
-    #   ipykernel
-    #   ipywidgets
 cryptography==44.0.2
     # via
     #   aiortc
     #   pyopenssl
 csvw==3.5.1
     # via segments
-debugpy==1.8.14
-    # via ipykernel
+dataclasses-json==0.6.7
+    # via langchain-community
 decorator==5.2.1
-    # via
-    #   ipython
-    #   librosa
-defusedxml==0.7.1
-    # via nbconvert
+    # via librosa
 distro==1.9.0
     # via openai
 dlinfo==2.0.0
@@ -101,14 +82,10 @@ dnspython==2.7.0
     # via aioice
 espeakng-loader==0.2.4
     # via kokoro-onnx
-executing==2.2.0
-    # via stack-data
+faiss-cpu==1.10.0
+    # via voiceai (pyproject.toml)
 fastapi==0.115.12
-    # via
-    #   voiceai (pyproject.toml)
-    #   gradio
-fastjsonschema==2.21.1
-    # via nbformat
+    # via gradio
 fastrtc==0.0.23
     # via voiceai (pyproject.toml)
 fastrtc-moonshine-onnx==20241016
@@ -119,8 +96,10 @@ filelock==3.18.0
     # via huggingface-hub
 flatbuffers==25.2.10
     # via onnxruntime
-fqdn==1.5.1
-    # via jsonschema
+frozenlist==1.6.0
+    # via
+    #   aiohttp
+    #   aiosignal
 fsspec==2025.3.2
     # via
     #   gradio-client
@@ -131,6 +110,8 @@ gradio==5.27.0
     # via fastrtc
 gradio-client==1.9.0
     # via gradio
+greenlet==3.2.1
+    # via sqlalchemy
 groovy==0.1.2
     # via gradio
 h11==0.16.0
@@ -143,10 +124,11 @@ httpx==0.28.1
     # via
     #   gradio
     #   gradio-client
-    #   jupyterlab
     #   langsmith
     #   openai
     #   safehttpx
+httpx-sse==0.4.0
+    # via langchain-community
 huggingface-hub==0.30.2
     # via
     #   fastrtc-moonshine-onnx
@@ -159,38 +141,14 @@ idna==3.10
     # via
     #   anyio
     #   httpx
-    #   jsonschema
     #   requests
+    #   yarl
 ifaddr==0.2.0
     # via aioice
-ipykernel==6.29.5
-    # via
-    #   voiceai (pyproject.toml)
-    #   jupyter
-    #   jupyter-console
-    #   jupyterlab
-ipython==9.2.0
-    # via
-    #   ipykernel
-    #   ipywidgets
-    #   jupyter-console
-ipython-pygments-lexers==1.1.1
-    # via ipython
-ipywidgets==8.1.6
-    # via jupyter
 isodate==0.7.2
     # via csvw
-isoduration==20.11.0
-    # via jsonschema
-jedi==0.19.2
-    # via ipython
 jinja2==3.1.6
-    # via
-    #   gradio
-    #   jupyter-server
-    #   jupyterlab
-    #   jupyterlab-server
-    #   nbconvert
+    # via gradio
 jiter==0.9.0
     # via openai
 joblib==1.4.2
@@ -198,75 +156,35 @@ joblib==1.4.2
     #   librosa
     #   phonemizer-fork
     #   scikit-learn
-json5==0.12.0
-    # via jupyterlab-server
 jsonpatch==1.33
     # via langchain-core
 jsonpointer==3.0.0
-    # via
-    #   jsonpatch
-    #   jsonschema
+    # via jsonpatch
 jsonschema==4.23.0
-    # via
-    #   csvw
-    #   jupyter-events
-    #   jupyterlab-server
-    #   nbformat
+    # via csvw
 jsonschema-specifications==2025.4.1
     # via jsonschema
-jupyter==1.1.1
-    # via voiceai (pyproject.toml)
-jupyter-client==8.6.3
-    # via
-    #   ipykernel
-    #   jupyter-console
-    #   jupyter-server
-    #   nbclient
-jupyter-console==6.6.3
-    # via jupyter
-jupyter-core==5.7.2
-    # via
-    #   ipykernel
-    #   jupyter-client
-    #   jupyter-console
-    #   jupyter-server
-    #   jupyterlab
-    #   nbclient
-    #   nbconvert
-    #   nbformat
-jupyter-events==0.12.0
-    # via jupyter-server
-jupyter-lsp==2.2.5
-    # via jupyterlab
-jupyter-server==2.15.0
-    # via
-    #   jupyter-lsp
-    #   jupyterlab
-    #   jupyterlab-server
-    #   notebook
-    #   notebook-shim
-jupyter-server-terminals==0.5.3
-    # via jupyter-server
-jupyterlab==4.4.1
-    # via
-    #   jupyter
-    #   notebook
-jupyterlab-pygments==0.3.0
-    # via nbconvert
-jupyterlab-server==2.27.3
-    # via
-    #   jupyterlab
-    #   notebook
-jupyterlab-widgets==3.0.14
-    # via ipywidgets
 kokoro-onnx==0.4.8
     # via fastrtc
+langchain==0.3.24
+    # via langchain-community
+langchain-community==0.3.22
+    # via voiceai (pyproject.toml)
 langchain-core==0.3.56
-    # via langchain-openai
+    # via
+    #   langchain
+    #   langchain-community
+    #   langchain-openai
+    #   langchain-text-splitters
 langchain-openai==0.3.14
     # via voiceai (pyproject.toml)
+langchain-text-splitters==0.3.8
+    # via langchain
 langsmith==0.3.37
-    # via langchain-core
+    # via
+    #   langchain
+    #   langchain-community
+    #   langchain-core
 language-tags==1.2.0
     # via csvw
 lazy-loader==0.4
@@ -283,51 +201,36 @@ markupsafe==3.0.2
     # via
     #   gradio
     #   jinja2
-    #   nbconvert
-matplotlib-inline==0.1.7
-    # via
-    #   ipykernel
-    #   ipython
+marshmallow==3.26.1
+    # via dataclasses-json
 mdurl==0.1.2
     # via markdown-it-py
-mistune==3.1.3
-    # via nbconvert
 mpmath==1.3.0
     # via sympy
 msgpack==1.1.0
     # via librosa
-nbclient==0.10.2
-    # via nbconvert
-nbconvert==7.16.6
+multidict==6.4.3
     # via
-    #   jupyter
-    #   jupyter-server
-nbformat==5.10.4
-    # via
-    #   jupyter-server
-    #   nbclient
-    #   nbconvert
-nest-asyncio==1.6.0
-    # via ipykernel
-notebook==7.4.1
-    # via jupyter
-notebook-shim==0.2.4
-    # via
-    #   jupyterlab
-    #   notebook
+    #   aiohttp
+    #   yarl
+mypy-extensions==1.1.0
+    # via typing-inspect
 numba==0.61.2
     # via
     #   fastrtc
     #   librosa
 numpy==2.2.5
     # via
+    #   faiss-cpu
     #   fastrtc
     #   gradio
     #   kokoro-onnx
+    #   langchain-community
     #   librosa
     #   numba
     #   onnxruntime
     #   pandas
+    #   rank-bm25
     #   scikit-learn
     #   scipy
     #   soundfile
@@ -345,32 +248,20 @@ orjson==3.10.16
     # via
     #   gradio
     #   langsmith
-overrides==7.7.0
-    # via jupyter-server
 packaging==24.2
     # via
+    #   faiss-cpu
     #   gradio
     #   gradio-client
     #   huggingface-hub
-    #   ipykernel
-    #   jupyter-events
-    #   jupyter-server
-    #   jupyterlab
-    #   jupyterlab-server
     #   langchain-core
     #   langsmith
     #   lazy-loader
-    #   nbconvert
+    #   marshmallow
     #   onnxruntime
     #   pooch
 pandas==2.2.3
     # via gradio
-pandocfilters==1.5.1
-    # via nbconvert
-parso==0.8.4
-    # via jedi
-pexpect==4.9.0
-    # via ipython
 phonemizer-fork==3.3.1
     # via kokoro-onnx
 pillow==11.2.1
@@ -378,49 +269,36 @@ pillow==11.2.1
 pip==25.1
     # via voiceai (pyproject.toml)
 platformdirs==4.3.7
-    # via
-    #   jupyter-core
-    #   pooch
+    # via pooch
 pooch==1.8.2
     # via librosa
-prometheus-client==0.21.1
-    # via jupyter-server
-prompt-toolkit==3.0.51
+propcache==0.3.1
     # via
-    #   ipython
-    #   jupyter-console
+    #   aiohttp
+    #   yarl
 protobuf==6.30.2
     # via onnxruntime
-psutil==7.0.0
-    # via ipykernel
-ptyprocess==0.7.0
-    # via
-    #   pexpect
-    #   terminado
-pure-eval==0.2.3
-    # via stack-data
 pycparser==2.22
     # via cffi
 pydantic==2.11.3
     # via
     #   fastapi
     #   gradio
+    #   langchain
     #   langchain-core
     #   langsmith
     #   openai
+    #   pydantic-settings
 pydantic-core==2.33.1
     # via pydantic
+pydantic-settings==2.9.1
+    # via langchain-community
 pydub==0.25.1
     # via gradio
 pyee==13.0.0
     # via aiortc
 pygments==2.19.1
-    # via
-    #   ipython
-    #   ipython-pygments-lexers
-    #   jupyter-console
-    #   nbconvert
-    #   rich
+    # via rich
 pylibsrtp==0.12.0
     # via aiortc
 pyopenssl==25.0.0
@@ -429,14 +307,12 @@ pyparsing==3.2.3
     # via rdflib
 python-dateutil==2.9.0.post0
     # via
-    #   arrow
     #   csvw
-    #   jupyter-client
     #   pandas
 python-dotenv==1.1.0
-    # via voiceai (pyproject.toml)
-python-json-logger==3.3.0
-    # via jupyter-events
+    # via
+    #   voiceai (pyproject.toml)
+    #   pydantic-settings
 python-multipart==0.0.20
     # via gradio
 pytz==2025.2
@@ -445,21 +321,17 @@ pyyaml==6.0.2
     # via
     #   gradio
     #   huggingface-hub
-    #   jupyter-events
+    #   langchain
+    #   langchain-community
     #   langchain-core
-pyzmq==26.4.0
-    # via
-    #   ipykernel
-    #   jupyter-client
-    #   jupyter-console
-    #   jupyter-server
+rank-bm25==0.2.2
+    # via voiceai (pyproject.toml)
 rdflib==7.1.4
     # via csvw
 referencing==0.36.2
     # via
     #   jsonschema
     #   jsonschema-specifications
-    #   jupyter-events
 regex==2024.11.6
     # via
     #   segments
@@ -468,23 +340,16 @@ requests==2.32.3
     # via
     #   csvw
     #   huggingface-hub
-    #   jupyterlab-server
+    #   langchain
+    #   langchain-community
     #   langsmith
     #   pooch
     #   requests-toolbelt
     #   tiktoken
 requests-toolbelt==1.0.0
     # via langsmith
-rfc3339-validator==0.1.4
-    # via
-    #   jsonschema
-    #   jupyter-events
 rfc3986==1.5.0
     # via csvw
-rfc3986-validator==0.1.1
-    # via
-    #   jsonschema
-    #   jupyter-events
 rich==14.0.0
     # via typer
 rpds-py==0.24.0
@@ -505,28 +370,22 @@ segments==2.3.0
     # via phonemizer-fork
 semantic-version==2.10.0
     # via gradio
-send2trash==1.8.3
-    # via jupyter-server
-setuptools==79.0.1
-    # via jupyterlab
 shellingham==1.5.4
     # via typer
 six==1.17.0
-    # via
-    #   python-dateutil
-    #   rfc3339-validator
+    # via python-dateutil
 sniffio==1.3.1
     # via
     #   anyio
     #   openai
 soundfile==0.13.1
     # via librosa
-soupsieve==2.7
-    # via beautifulsoup4
 soxr==0.5.0.post1
     # via librosa
-stack-data==0.6.3
-    # via ipython
+sqlalchemy==2.0.40
+    # via
+    #   langchain
+    #   langchain-community
 standard-aifc==3.13.0
     # via
     #   fastrtc
@@ -544,56 +403,25 @@ starlette==0.46.2
 sympy==1.13.3
     # via onnxruntime
 tenacity==9.1.2
-    # via langchain-core
-terminado==0.18.1
     # via
-    #   jupyter-server
-    #   jupyter-server-terminals
+    #   langchain-community
+    #   langchain-core
 threadpoolctl==3.6.0
     # via scikit-learn
 tiktoken==0.9.0
     # via langchain-openai
-tinycss2==1.4.0
-    # via bleach
 tokenizers==0.21.1
     # via fastrtc-moonshine-onnx
 tomlkit==0.13.2
     # via gradio
-tornado==6.4.2
-    # via
-    #   ipykernel
-    #   jupyter-client
-    #   jupyter-server
-    #   jupyterlab
-    #   notebook
-    #   terminado
 tqdm==4.67.1
     # via
     #   huggingface-hub
     #   openai
-traitlets==5.14.3
-    # via
-    #   comm
-    #   ipykernel
-    #   ipython
-    #   ipywidgets
-    #   jupyter-client
-    #   jupyter-console
-    #   jupyter-core
-    #   jupyter-events
-    #   jupyter-server
-    #   jupyterlab
-    #   matplotlib-inline
-    #   nbclient
-    #   nbconvert
-    #   nbformat
 typer==0.15.2
     # via gradio
-types-python-dateutil==2.9.0.20241206
-    # via arrow
 typing-extensions==4.13.2
     # via
-    #   beautifulsoup4
     #   fastapi
     #   gradio
     #   gradio-client
@@ -605,33 +433,27 @@ typing-extensions==4.13.2
     #   pydantic
     #   pydantic-core
     #   pyee
+    #   sqlalchemy
     #   typer
+    #   typing-inspect
     #   typing-inspection
+typing-inspect==0.9.0
+    # via dataclasses-json
 typing-inspection==0.4.0
-    # via pydantic
+    # via
+    #   pydantic
+    #   pydantic-settings
 tzdata==2025.2
     # via pandas
-uri-template==1.3.0
-    # via jsonschema
 uritemplate==4.1.1
     # via csvw
 urllib3==2.4.0
     # via requests
 uvicorn==0.34.2
     # via gradio
-wcwidth==0.2.13
-    # via prompt-toolkit
-webcolors==24.11.1
-    # via jsonschema
-webencodings==0.5.1
-    # via
-    #   bleach
-    #   tinycss2
-websocket-client==1.8.0
-    # via jupyter-server
 websockets==15.0.1
     # via gradio-client
-widgetsnbextension==4.0.14
-    # via ipywidgets
+yarl==1.20.0
+    # via aiohttp
 zstandard==0.23.0
     # via langsmith
