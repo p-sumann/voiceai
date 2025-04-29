@@ -27,15 +27,9 @@ VoiceAI is an advanced voice assistant application that leverages OpenAI's GPT a
    cd voiceai
    ```
 
-2. Create a virtual environment and activate it:
+2. Create a virtual environment and activate it, please use `uv`:
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+   uv sync
    ```
 
 4. Set up environment variables:
@@ -49,7 +43,8 @@ VoiceAI is an advanced voice assistant application that leverages OpenAI's GPT a
 
 1. Start the application:
    ```bash
-   python src/app.py
+   cd src
+   uv run app.py
    ```
 
 2. Access the Gradio interface at `http://localhost:7860`.
