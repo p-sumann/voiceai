@@ -38,6 +38,12 @@ VoiceAI is an advanced voice assistant application that leverages OpenAI's GPT a
      ```env
      OPENAI_API_KEY=your_openai_api_key
      ```
+   or
+
+   - Directly export the OpenAI API key:
+     ```
+      export OPENAI_API_KEY=<your_openai_api_key>
+      ```
 
 ## Usage
 
